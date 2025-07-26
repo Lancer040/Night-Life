@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e12;
+  color: #ffffff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c24;
+  padding: 1rem 2rem;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.logo span {
+  color: #9c4dff;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover {
+  color: #9c4dff;
+}
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+.hero h1 span {
+  color: #9c4dff;
+}
+.accordion-button {
+  background: #1c1c24;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #2a2a35;
+  padding: 0 1rem;
+}
+.accordion-content.active {
+  max-height: 200px;
+  padding: 1rem;
+}
+.steps {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+}
+.step-box {
+  background: #1e1e2e;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.step-box a {
+  color: #9c4dff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #1c1c24;
+  color: #aaa;
+}
+footer a {
+  color: #9c4dff;
+  margin: 0 1rem;
+}
